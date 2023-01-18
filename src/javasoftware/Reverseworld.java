@@ -1,7 +1,7 @@
 package javasoftware;
 /**
  *
- * @author manch
+ * @author prabh
  */
 import java.util.*;
 public class Reverseworld {
