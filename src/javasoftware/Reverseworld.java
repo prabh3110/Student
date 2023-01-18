@@ -2,7 +2,6 @@ package javasoftware;
 /**
  *
  * @author prabh
- * lets go
  */
 import java.util.*;
 public class Reverseworld {
@@ -11,7 +10,6 @@ public class Reverseworld {
       System.out.println("Enter a word");
       String w=in.nextLine();
       char[] c= new char[w.length()];
-      
       for(int i=0;i<w.length();i++) {
           c[i]=w.charAt(i);
       }
