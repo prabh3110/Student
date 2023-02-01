@@ -7,6 +7,13 @@ package javasoftware;
 public class Student {
     private String studentId;
     private String name;
+    private String studentaddress;
+    public String getStudentaddress() {
+        return studentaddress;
+    }
+    public void setStudentaddress(String studentaddress) {
+        this.studentaddress = studentaddress;
+    }
     Student(String studentId, String name) {
         this.studentId=studentId;
         this.name=name;
